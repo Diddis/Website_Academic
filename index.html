@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+  <title>BrianD</title>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="briancv.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Raleway" rel="stylesheet">
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script>$(function(){
+    $("#header").load("header.html");
+  });
+  </script>
+
+  <script>$(function(){
+    $("#footer").load("footer.html");
+  });
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+
+<body>
+
+  <!--Load the navbar and header.-->
+  <div class="container">
+    <div id="header"></div>
+
+    <div class="row">
+      <div class="col-sm-12"></div>
+        <header id="indexVideo">
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="natureReserve.mp4" type="video/mp4">
+          </video>
+
+          <div class="row">
+
+            <div class="col-md-8" id="headerTextBox">
+              <p class="text-justify" id="aboutMe"><span style="font-size: 1.1em; font-weight: 900; color: #333333">
+                Hi, I am a PhD student in economics </span> at the Department of Forest Economics at the
+                Swedish University of Agricultural Sciences. I am interested in how people try to make sense of
+                the complexities and uncertainties of environmental science to arrive at relatively simple
+                decisions about how to reduce their impact on the environment. My research generally addresses
+                how to assist the public in converting their well-intentioned environmental ideas into
+                effective behavior using public policy. On January 25, 2019, I will be defending my
+                thesis "Environmental policy for ecosystem services and biodiversity: Preferences for fish
+                conservation and instruments for forest policy."</p>
+              <p class="text-justify" id="interests">Research interests: pro-environmental behavior, forest policy,
+                discrete choice modeling, environmental economics, human dimensions of wildlife and
+                natural resources</p>
+            </div>
+            <div class="col-xs-4" id="photo">
+              <img src="brianPhoto_sm.jpg" alt="Photo of Brian">
+            </div>
+
+          </div>
+
+        </header>
+
+        <!--Load the footer.-->
+        <div class="col-sm-12">
+          <div id="footer"></div>
+        </div>
+
+      </div>
+
+  </div>
+
+</body>
+
+</html>
