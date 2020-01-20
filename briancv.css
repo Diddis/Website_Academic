@@ -27,6 +27,7 @@ h3, h4, h5 {
 
 .navbar-nav {
   font-family: "Raleway", sans-serif !important;
+  padding: 12px;
 }
 
 header video {
@@ -44,7 +45,7 @@ header video {
   background-color: white;
   height: 700px;
   width: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #indexVideo video {
